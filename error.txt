@@ -1,0 +1,20 @@
+root@ip-10-0-0-68:/home/ansible# git remote add origin https://github.com/Mohanapiriyan09111993/Terraform.git
+root@ip-10-0-0-68:/home/ansible# git push -u origin main
+error: src refspec main does not match any.
+error: failed to push some refs to 'https://github.com/Mohanapiriyan09111993/Terraform.git'
+root@ip-10-0-0-68:/home/ansible# git push -u origin Mohanapiriyan09111993
+error: src refspec Mohanapiriyan09111993 does not match any.
+error: failed to push some refs to 'https://github.com/Mohanapiriyan09111993/Terraform.git'
+root@ip-10-0-0-68:/home/ansible# git push -u origin main
+error: src refspec main does not match any.
+error: failed to push some refs to 'https://github.com/Mohanapiriyan09111993/Terraform.git'
+root@ip-10-0-0-68:/home/ansible# git checkout master
+Already on 'master'
+root@ip-10-0-0-68:/home/ansible# git push origin +HEAD
+Username for 'https://github.com': Mohanapiriyan09111993
+Password for 'https://Mohanapiriyan09111993@github.com':
+Counting objects: 3, done.
+Writing objects: 100% (3/3), 215 bytes | 0 bytes/s, done.
+Total 3 (delta 0), reused 0 (delta 0)
+To https://github.com/Mohanapiriyan09111993/Terraform.git
+ * [new branch]      HEAD -> master
